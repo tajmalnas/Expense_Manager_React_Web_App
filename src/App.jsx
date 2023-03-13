@@ -1,9 +1,10 @@
 import React from 'react'
+import ExpenseItem from './components/ExpenseItem'
 
 const App = () => {
   return (
     <div>
-      HI
+      <ExpenseItem/>
     </div>
   )
 }
