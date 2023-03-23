@@ -10,6 +10,7 @@ const ExpenseItem = (props) => {
      setTitle("Updated");
   }
   return (
+    <li>
     <Card className='expense-item'>
       <ExpenseDate date={props.date} />
       <div className='expense-item__description'>
@@ -18,6 +19,7 @@ const ExpenseItem = (props) => {
       </div>
       <button onClick={clickHandler} >change title</button>
     </Card>
+    </li>
   );
 }
 
